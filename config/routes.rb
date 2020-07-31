@@ -1,2 +1,4 @@
 Rails.application.routes.draw do
-z
+  root to: 'posts#index'
+  post 'posts', to: 'posts#create'
+end
